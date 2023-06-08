@@ -1,0 +1,102 @@
+*{
+   background:#faecf7;
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%;
+   overflow-y: hidden;
+   
+}
+
+.logo{
+   padding-top: 8px;
+   margin-left: 8px;
+   width: 4%;
+   border-radius: 15%;
+}
+
+main{
+   display: flex;
+   margin-bottom: 10px;
+   margin-left: 180px;
+   
+}
+
+.text-area{
+   height: 400px;
+   background: #f5dfec;
+   border: none;
+   border-radius: 30px;
+   color: #8f1b72;
+   margin-top: 30px;
+   padding: 2px;
+   /*text-transform: lowercase;*/
+}
+::placeholder { color: #0A3871; }
+ .text-area:focus {
+     outline: none;
+   }
+
+.mensaje{
+   height: 630px;
+   background: white;
+   background-image: url("imagenes/fondo\ mensaje\ o\ pantalla.jfif");
+   background-repeat: no-repeat;
+   background-position:right;
+   border: none;
+   border-radius: 24px;
+   color: #b906a1;
+   margin-left: 98px;
+   margin-top: 20px;
+   padding-left: 20px;
+   position: fixed;
+   overflow-y: scroll;
+   resize: none
+}
+.mensaje:focus {
+   outline: none;
+}
+
+.botones{
+   display: flex;
+   margin-top: 18px;
+}
+
+.btn-desencriptar {
+   background: #ec92d9;
+   border: 6px solid #f584cd;
+   border-radius: 24px;
+   color: #6a035c;
+   cursor: pointer;
+   height: 67px;
+   margin-left: 30px;
+   width: 328px;
+}
+
+.btn-encriptar {
+   background-color: #ec92d9;
+   border: 6px solid #f584cd;
+   border-radius: 24px;
+   color: #6a035c;
+   cursor: pointer;
+   height: 67px;
+   width: 328px;
+}
+
+.copiar {
+   background-color: #ec92d9;
+   border: 6px solid #f584cd;
+   border-radius: 24px;
+   color: #0A3871;
+   cursor: pointer;
+   height: 67px;
+   margin-left: 120px;
+   margin-top: 565px;
+   position: relative;
+   width: 336px;
+}
+
+.informacion {
+   color: #495057;
+   font-size:18px;
+}
