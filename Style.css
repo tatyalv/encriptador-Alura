@@ -19,7 +19,7 @@ main{
    display: flex;
    margin-bottom: 10px;
    margin-left: 180px;
-   
+
 }
 
 .text-area{
@@ -30,6 +30,7 @@ main{
    color: #8f1b72;
    margin-top: 30px;
    padding: 2px;
+   width: 95%;
    /*text-transform: lowercase;*/
 }
 ::placeholder { color: #0A3871; }
@@ -38,7 +39,7 @@ main{
    }
 
 .mensaje{
-   height: 70%;
+   height: 65%;
    background: white;
    background-image: url("imagenes/fondo\ mensaje\ o\ pantalla.jfif");
    background-repeat: no-repeat;
@@ -46,7 +47,7 @@ main{
    border: none;
    border-radius: 24px;
    color: #b906a1;
-   margin-left: 98px;
+   margin-left: 1%;
    margin-top: 20px;
    padding-left: 20px;
    position: fixed;
@@ -68,9 +69,9 @@ main{
    border-radius: 24px;
    color: #6a035c;
    cursor: pointer;
-   height: 67px;
-   margin-left: 30px;
-   width: 328px;
+   height: 40%;
+   margin-left: 5%;
+   width: 45%;
 }
 
 .btn-encriptar {
@@ -79,8 +80,8 @@ main{
    border-radius: 24px;
    color: #6a035c;
    cursor: pointer;
-   height: 67px;
-   width: 328px;
+   height: 40%;
+   width: 45%;
 }
 
 .copiar {
@@ -89,14 +90,16 @@ main{
    border-radius: 24px;
    color: #0A3871;
    cursor: pointer;
-   height: 67px;
-   margin-left: 120px;
-   margin-top: 565px;
-   position: relative;
-   width: 336px;
+   height: 8%;
+   margin-left: 3%;
+   margin-top: 28.5%;
+   position: absolute;
+   width: 20%;
 }
 
 .informacion {
    color: #495057;
    font-size:18px;
+   padding: 1%;
+   margin: 1%;
 }
