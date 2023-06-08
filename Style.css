@@ -23,7 +23,7 @@ main{
 }
 
 .text-area{
-   height: 400px;
+   height: 50%;
    background: #f5dfec;
    border: none;
    border-radius: 30px;
@@ -38,7 +38,7 @@ main{
    }
 
 .mensaje{
-   height: 630px;
+   height: 70%;
    background: white;
    background-image: url("imagenes/fondo\ mensaje\ o\ pantalla.jfif");
    background-repeat: no-repeat;
